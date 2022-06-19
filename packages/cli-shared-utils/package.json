@@ -1,11 +1,11 @@
 {
-  "name": "package2",
+  "name": "@lgcf1314/cli-shared-utils",
   "version": "0.0.2",
   "description": "> TODO: description",
   "author": "liugang <lgcf1314@gmail.com>",
   "homepage": "https://github.com/liugangtaotie/learn-lerna#readme",
   "license": "ISC",
-  "main": "lib/package2.js",
+  "main": "lib/cli-shared-utils.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,19 +14,19 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com/"
+    "access": "public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liugangtaotie/learn-lerna.git"
   },
   "scripts": {
-    "test": "node ./lib/package2.js"
+    "test": "node ./lib/cli-shared-utils.js"
   },
   "bugs": {
     "url": "https://github.com/liugangtaotie/learn-lerna/issues"
   },
   "dependencies": {
-    "package1": "^0.0.2"
+    "@lgcf1314/cli": "^0.0.2"
   }
 }
