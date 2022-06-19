@@ -1,11 +1,11 @@
 {
-  "name": "@lgcf1314/cli-shared-utils",
-  "version": "0.0.3",
+  "name": "pusa-utils",
+  "version": "0.0.0",
   "description": "> TODO: description",
   "author": "liugang <lgcf1314@gmail.com>",
   "homepage": "https://github.com/liugangtaotie/learn-lerna#readme",
   "license": "ISC",
-  "main": "lib/cli-shared-utils.js",
+  "main": "lib/pusa-utils.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,19 +14,19 @@
     "lib"
   ],
   "publishConfig": {
-    "access": "public"
+    "registry": "https://registry.yarnpkg.com/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liugangtaotie/learn-lerna.git"
   },
   "scripts": {
-    "test": "node ./lib/cli-shared-utils.js"
+    "test": "node ./lib/pusa-utils.js"
   },
   "bugs": {
     "url": "https://github.com/liugangtaotie/learn-lerna/issues"
   },
   "dependencies": {
-    "@lgcf1314/cli": "^0.0.3"
+    "pusa-cli": "^0.0.0"
   }
 }

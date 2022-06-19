@@ -1,11 +1,11 @@
-# `@lgcf1314/cli`
+# `pusa-utils`
 
 > TODO: description
 
 ## Usage
 
 ```
-const cli = require('@lgcf1314/cli');
+const pusaUtils = require('pusa-utils');
 
 // TODO: DEMONSTRATE API
 ```
