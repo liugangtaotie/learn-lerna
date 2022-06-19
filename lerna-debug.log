@@ -1,5 +1,5 @@
 15 error Error: Command failed with exit code 1: git remote update
-15 error fatal: unable to access 'https://github.com/liugangtaotie/learn-lerna.git/': LibreSSL SSL_read: error:02FFF036:system library:func(4095):Connection reset by peer, errno 54
+15 error fatal: unable to access 'https://github.com/liugangtaotie/learn-lerna.git/': Failed to connect to github.com port 443 after 75007 ms: Operation timed out
 15 error error: Could not fetch origin
 15 error Fetching origin
 15 error     at makeError (/Users/sweet/.nvm/versions/node/v16.13.0/lib/node_modules/lerna/node_modules/execa/lib/error.js:60:11)

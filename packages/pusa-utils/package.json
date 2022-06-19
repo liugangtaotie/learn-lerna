@@ -28,5 +28,6 @@
   },
   "dependencies": {
     "pusa-cli": "^0.0.1"
-  }
+  },
+  "gitHead": "fb11f120a446715d3ad4414946e67c804cd94976"
 }
