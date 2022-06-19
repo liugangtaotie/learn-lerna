@@ -1,6 +1,6 @@
 {
   "name": "pusa-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "> TODO: description",
   "author": "liugang <lgcf1314@gmail.com>",
   "homepage": "https://github.com/liugangtaotie/learn-lerna#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/liugangtaotie/learn-lerna/issues"
   },
   "dependencies": {
-    "pusa-cli": "^0.0.2"
+    "pusa-cli": "^0.0.3"
   },
   "gitHead": "fb11f120a446715d3ad4414946e67c804cd94976"
 }
