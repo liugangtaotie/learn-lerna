@@ -1,0 +1,32 @@
+{
+  "name": "package2",
+  "version": "0.0.2",
+  "description": "> TODO: description",
+  "author": "liugang <lgcf1314@gmail.com>",
+  "homepage": "https://github.com/liugangtaotie/learn-lerna#readme",
+  "license": "ISC",
+  "main": "lib/package2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liugangtaotie/learn-lerna.git"
+  },
+  "scripts": {
+    "test": "node ./lib/package2.js"
+  },
+  "bugs": {
+    "url": "https://github.com/liugangtaotie/learn-lerna/issues"
+  },
+  "dependencies": {
+    "package1": "^0.0.2"
+  }
+}

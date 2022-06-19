@@ -1,0 +1,25 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "useNx": false,
+  "version": "0.0.2",
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    },
+    "version": {},
+    "publish": {
+      "npmClient": "npm",
+      "ignoreChanges": [
+        "**/*.md",
+        "**/test/**"
+      ],
+      "message": "chore(release): publish",
+      "registry": "https://registry.npmjs.org",
+      "conventionalCommits": true
+    }
+  }
+}
